@@ -1,10 +1,13 @@
 {
-  "name": "@ng-select/ng-select",
+  "name": "@ng-select/ng-select-uzzman",
   "version": "1.0.0",
   "description": "Angular ng-select - All in One UI Select, Multiselect and Autocomplete",
   "author": "Serkan",
   "license": "MIT",
-  "repository": "ng-select/ng-select",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lepptice/ng-select-uzzman.git"
+  },
   "engines": {
     "node": ">= 6.9.0",
     "npm": ">= 3.0.0"
@@ -35,5 +38,15 @@
   "sideEffects": false,
   "dependencies": {
     "tslib": "^1.9.0"
+  },
+  "bugs": {
+    "url": "https://github.com/ng-select/ng-select/issues"
+  },
+  "homepage": "https://github.com/ng-select/ng-select#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
